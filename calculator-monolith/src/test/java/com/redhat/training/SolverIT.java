@@ -36,11 +36,27 @@ public class SolverIT {
     }
 
     @Test
+<<<<<<< HEAD
+=======
+    public void solve_multiply() {
+        expectEquationSolution("4*2","8.0");
+    }
+
+    @Test
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
     public void solve_composed() {
         expectEquationSolution("4+2-1","5.0");
     }
 
     @Test
+<<<<<<< HEAD
+=======
+    public void solve_composed_multiply() {
+         expectEquationSolution("4+2*3","10.0");
+    }
+
+    @Test
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
     public void solve_error() {
         given().when().get("error").then().statusCode(400);
     }

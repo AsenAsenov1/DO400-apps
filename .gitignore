@@ -1,5 +1,42 @@
+<<<<<<< HEAD
+=======
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# NetBeans
+nb-configuration.xml
+
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
 # Visual Studio Code
 .vscode
 
 # OSX
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1

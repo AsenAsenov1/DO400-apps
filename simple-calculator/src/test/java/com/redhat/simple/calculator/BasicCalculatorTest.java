@@ -32,4 +32,12 @@ class BasicCalculatorTest {
     void testDivideIntegers() {
         assertEquals(1, calculator.divide(4, 3));
     }
+<<<<<<< HEAD
+=======
+
+    @Test
+    void testDivideByZero() {
+        assertEquals(Integer.MAX_VALUE, calculator.divide(1, 0));
+    }
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
 }

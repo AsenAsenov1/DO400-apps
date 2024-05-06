@@ -13,6 +13,12 @@ describe("functional tests", () => {
 
       // THEN the CLI should print help info
       expect(res.stdout).toContain("Convert from one currency to another");
+<<<<<<< HEAD
+=======
+
+      // AND the command should exit normally
+      expect(res.stderr).toBeFalsy();
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
     });
 
     it("should check for missing flags", async () => {
@@ -39,6 +45,12 @@ describe("functional tests", () => {
 
       // THEN the CLI should convert from USD to USD
       expect(res.stdout).toMatch("3.5 USD -> 3.5 USD");
+<<<<<<< HEAD
+=======
+
+      // AND the command should exit normally
+      expect(res.stderr).toBeFalsy();
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
     });
 
     it("should convert different currencies", async () => {
@@ -49,6 +61,12 @@ describe("functional tests", () => {
 
       // THEN the CLI should convert between two different currencies
       expect(res.stdout).toMatch("3.5 USD -> 364.6 JPY");
+<<<<<<< HEAD
+=======
+
+      // AND the command should exit normally
+      expect(res.stderr).toBeFalsy();
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
     });
   });
 

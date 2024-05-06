@@ -35,6 +35,14 @@ public class SolverTest {
     }
 
     @Test
+<<<<<<< HEAD
+=======
+    public void solve_multiply() {
+        assertEquals(solverService.solve("5*3"), 15);
+    }
+
+    @Test
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
     public void solve_composition() {
         assertEquals(solverService.solve("20+5+3+2"), 30);
     }
@@ -45,6 +53,14 @@ public class SolverTest {
     }
 
     @Test
+<<<<<<< HEAD
+=======
+    public void solve_multiplication_overprioritize_addition() {
+        assertEquals(solverService.solve("10-5*3+2"), -7);
+    }
+
+    @Test
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
     public void solve_error() {
         assertThrows(WebApplicationException.class, () -> solverService.solve("5+"));
     }

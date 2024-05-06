@@ -9,13 +9,21 @@
     <properties>
         <surefire-plugin.version>2.22.1</surefire-plugin.version>
         <maven.compiler.target>1.8</maven.compiler.target>
+<<<<<<< HEAD
         <quarkus.platform.version>1.12.1.Final</quarkus.platform.version>
+=======
+        <quarkus.platform.version>1.8.3.Final</quarkus.platform.version>
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
         <maven.compiler.source>1.8</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <quarkus.platform.artifact-id>quarkus-universe-bom</quarkus.platform.artifact-id>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.parameters>true</maven.compiler.parameters>
+<<<<<<< HEAD
         <quarkus-plugin.version>1.12.1.Final</quarkus-plugin.version>
+=======
+        <quarkus-plugin.version>1.8.3.Final</quarkus-plugin.version>
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
         <compiler-plugin.version>3.8.1</compiler-plugin.version>
         <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
     </properties>

@@ -1,5 +1,6 @@
 package com.redhat.training.operation;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -14,10 +15,19 @@ import com.redhat.training.service.SolverService;
 
 @ApplicationScoped
 public final class Add implements Operation {
+=======
+import java.util.function.BinaryOperator;
+
+import javax.enterprise.context.ApplicationScoped;
+
+@ApplicationScoped
+public final class Add extends BinaryOperation {
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
     private static final String REGEX = "(.+)\\+(.+)";
     private static final BinaryOperator<Float> OPERATOR = (lhs, rhs) -> lhs + rhs;
 
     public Add() {
+<<<<<<< HEAD
         super();
     }
 
@@ -46,4 +56,8 @@ public final class Add implements Operation {
         return solverService.solve(equation);
     }
 
+=======
+        super(OPERATOR, REGEX);
+    }
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
 }

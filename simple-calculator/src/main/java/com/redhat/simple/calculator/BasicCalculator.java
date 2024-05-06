@@ -1,5 +1,6 @@
 package com.redhat.simple.calculator;
 
+<<<<<<< HEAD
 import java.util.*;
 
 public class BasicCalculator {
@@ -28,3 +29,15 @@ public class BasicCalculator {
         return r.nextInt();
     }
 }
+=======
+import java.util.Random;
+
+public final class BasicCalculator extends Calculator {
+
+    private final Random randomService = new Random();
+
+    public int random() {
+        return randomService.nextInt();
+    }
+}
+>>>>>>> cd26c9ed54c0d8e5c46dbf1be2517a20f4d7f9a1
